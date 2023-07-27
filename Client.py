@@ -28,7 +28,7 @@ def receive():
             client.close()
             break
 
-
+#
 def write():
     while True:
         message = f'{nickname}: {input("")}'
